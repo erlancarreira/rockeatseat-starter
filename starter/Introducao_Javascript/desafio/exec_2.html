@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            Curso JavaScript
+        </title>
+    </head>
+    <body>
+        
+        <script>
+            //JAVASCRIPT
+            function getPares(min, max) {
+                
+                let i, pares = []
+
+                for(i = min; i <= max; i++) {
+
+                    if (i % 2 === 0) {
+                        pares.push(i)
+                    }
+                }
+
+                return pares.join(', ')
+            }
+            
+            let pares = getPares(32, 321)
+            
+            console.log(pares)
+
+        </script>
+    </body>
+</html>

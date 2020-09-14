@@ -1,0 +1,35 @@
+<html >
+    <head>
+
+        <title>
+            Curso JavaScript
+        </title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        
+        <script>
+            //JAVASCRIPT
+            
+            function getXp(xp) {
+                let exp
+
+                if (xp >= 0 && xp < 1) {
+                    exp = 'Iniciante'
+                } else if (xp >= 1 && xp < 3) {
+                    exp = 'Intermediário'
+                } else if (xp >= 3 && xp < 6) {
+                    exp = 'Avançado'
+                } else if (xp >= 7) {
+                    exp = 'Jedi Master'
+                }
+                
+                return exp
+            }
+
+            const exp = getXp(3)
+            console.log(exp)
+
+        </script>
+    </body>
+</html>

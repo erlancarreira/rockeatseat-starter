@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            Curso JavaScript
+        </title>
+    </head>
+    <body>
+        
+        <script>
+            //JAVASCRIPT
+            const address = {
+                street: "Rua dos pinheiros",
+                number: 1293,
+                district: "Centro",
+                city: "São Paulo",
+                state: "SP"
+            }
+
+            function getAddress() {
+                return `O usuário mora em ${address.city} / ${address.state} no bairro ${address.district}, na rua "${address.street}" com nº ${address.number}.`
+            }
+
+            console.log(getAddress()) 
+        </script>
+    </body>
+</html>
